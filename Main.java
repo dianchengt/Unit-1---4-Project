@@ -13,7 +13,7 @@ public class Main{
     System.out.println(password.toString());
     String captcha = password.createCaptcha();
 
-     // lines 16 to 495 checks all the requirments using methods made in the PasswordChecker class. As more requirments are added, the code for each section becomes longer because each section checks all the previous requirments as well. 
+     // lines 16 to 491 checks all the requirments using methods made in the PasswordChecker class. As more requirments are added, the code for each section becomes longer because each section checks all the previous requirments as well. 
     while(password.checkNumOfChars() == false){
       System.out.println("Your password must be at least 7 characters");
       System.out.print("Enter a password: ");
